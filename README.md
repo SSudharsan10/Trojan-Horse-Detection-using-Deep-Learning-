@@ -12,17 +12,19 @@ Step 2: Splitting the Data
 -Split the preprocessed data into training (80%) and testing (20%) sets.
 
 Step 3: Applying Machine Learning Techniques
+
 1)Random Forest:
 Train a Random Forest Classifier with 50 estimators and check its accuracy on the test set.
 Experiment with different numbers of estimators to find the best setup.
-AdaBoost:
 
-3)Train an AdaBoost Classifier with, for example, 100 estimators and assess its accuracy on the test set.
+2)AdaBoost:
+Train an AdaBoost Classifier with, for example, 100 estimators and assess its accuracy on the test set.
 
-2)Gaussian Naive Bayes:
+3)Gaussian Naive Bayes:
 Train a Gaussian Naive Bayes Classifier and use cross-validation to estimate the models' performance more robustly.
 
 Step 4: Applying Deep Learning with a Feedforward Neural Network
+
 Install required libraries like TensorFlow, scikit-learn, and pandas if not already installed.
 Standardize the input data using StandardScaler for the neural network.
 Define a feedforward neural network with suitable activation functions and layers.
